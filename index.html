@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>socket.io测试</title>
+</head>
+<body>
+
+</body>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io('http://localhost');
+  socket.on('news', function (data) {
+    console.log(data);
+    socket.emit('hello', { my: 'data' });
+  });
+</script>
+</html>
