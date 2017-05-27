@@ -3,12 +3,15 @@
 	可用于对nodejs，npm入门学习。
 
 ##  1.初始化项目
-生成<a href='package.json'>package.json</a>,里面是项目的相关信息   
+<p>
+生成<a href='package.json'>package.json</a>,里面是项目的相关信息 
+</p>  
 
 	npm init
 
-
-![Alt text](img/package.png)  
+<p>
+![Alt text](img/package.png) 
+</p> 
 
 ##  2.下载依赖
 	ipm install socket.io --save
