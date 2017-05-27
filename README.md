@@ -1,34 +1,19 @@
-#<center>nodejs之socke.io学习 </center>
+#  <center>nodejs之socke.io学习 </center>
+
+	可用于对nodejs，npm入门学习，新建项目，nodejs服务启动
 <style type="text/css">
-article code {  
-white-space: normal;  
-word-break: break-all; 
-background-color:grey 
-}  
+	article code {  
+	white-space: normal;  
+	word-break: break-all; 
+	background-color:grey 
+	}  
 </style>
-##1. npm init 初始化项目
-生成package.json
-<code>   
-    {  
-      "name": "learn_soket.io",      
-      "version": "1.0.0",  
-      "description": "learn socket.io",  
-      "main": "server.js",
-      "scripts": {  
-        "test": "echo \"Error: no test specified\" && exit 1"  
-      },  
-      "repository": {  
-       	"type": "git",  
-        "url": "git+https://github.com/pangyongkun/sockeio.git"  
-      },  
-      "keywords": [  
-        "sokete.io"  
-      ],  
-      "author": "pyk",  
-      "license": "ISC",  
-      "bugs": {  
-        "url": "https://github.com/pangyongkun/sockeio/issues"  
-      },  
-      "homepage": "https://github.com/pangyongkun/sockeio#readme"   
-    }
-</code>
+##  1.初始化项目
+   `npm init`
+生成<a href='package.json'>package.json</a>,里面是项目的相关信息
+##  2.下载依赖
+	`ipm install socket.io --save`
+##  3.新建server.js编写服务器代码
+`............................`
+##  4.启动服务器
+	`node server.js`
