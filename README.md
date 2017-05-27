@@ -5,10 +5,9 @@
 ##  1.初始化项目
 	npm init
 生成<a href='package.json'>package.json</a>,里面是项目的相关信息 
- </br> 
-</br>
- 
-![Alt text](img/package.png)
+
+![Alt text](img/package.png)  
+
 ##  2.下载依赖
 	ipm install socket.io --save
 ![Alt text](img/install_socket_io.png)
