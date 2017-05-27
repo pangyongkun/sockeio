@@ -70,5 +70,15 @@
 
 使用git下载：  
 
-	git clone https://github.com/pangyongkun/sockeio.git
+	https://github.com/pangyongkun/socket.io.learn.git
 也可以下载：<a href="">压缩包</a>
+
+###  2)安装
+
+安装依赖:
+
+	cd socket.io.learn
+	#安装依赖
+	npm install
+	#启动服务
+	node server.js
