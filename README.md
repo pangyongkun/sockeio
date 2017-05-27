@@ -9,13 +9,15 @@
 
 	npm init
 
-<p>
+
 ![Alt text](img/package.png) 
-</p> 
+ 
 
 ##  2.下载依赖
 	ipm install socket.io --save
+
 ![Alt text](img/install_socket_io.png)
+
 ##  3.新建<a href='server.js'>server.js</a>编写服务器代码
 	//引入nodejs的http模块
 	var app = require('http').createServer(handler)
