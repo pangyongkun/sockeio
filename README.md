@@ -3,8 +3,10 @@
 	可用于对nodejs，npm入门学习。
 
 ##  1.初始化项目
+生成<a href='package.json'>package.json</a>,里面是项目的相关信息   
+
 	npm init
-生成package.json,里面是项目的相关信息 
+
 
 ![Alt text](img/package.png)  
 
