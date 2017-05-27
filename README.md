@@ -1,10 +1,13 @@
 #  <center>nodejs之socke.io学习 </center>
 
-	可用于对nodejs，npm入门学习。
+<p>可用于对nodejs，npm入门学习。<br/>
+<a href='https://socket.io/'>socket.io</a>是nodejs的一个websocket通信框架，用来实现点对点通信非常简单。具体可以查看它的<a href="https://socket.io/docs/">开发文档</a>
+
+</p>
 
 ##  1.初始化项目
 <p>
-生成<a href='package.json'>package.json</a>,里面是项目的相关信息 
+生成<a href='package.json'>package.json</a>,中间需要你填入一些信息，之后生成了这些信息。
 </p>  
 
 	npm init
@@ -53,5 +56,19 @@
 	});
 ****
 这就实现了一个简单的socket信令服务。
-##  4.启动服务器
+
+##  4.编写测试页index.html
+
+	...........................
+
+##  5.启动服务器
 	node server.js
+
+##  6.使用请注意
+
+###  1)下载
+
+使用git下载：  
+
+	git clone https://github.com/pangyongkun/sockeio.git
+也可以下载：<a href="">压缩包</a>
