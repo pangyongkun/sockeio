@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 	<title>socket.io测试</title>
 </head>
 <body>
+<div>
+	socket.io测试
+</div>
 
 </body>
 
+<!-- 引入socket.io客户端包 -->
 <script src="/socket.io/socket.io.js"></script>
+
+<script type="text/javascript" src="node_modules/"></script>
 <script>
-  var socket = io('http://localhost');
-  socket.on('news', function (data) {
-    console.log(data);
+
+	//建立建立
+	var socket = io('/');
+
+  	//监听自定义事件'news'
+	socket.on('news', function (data) {
+ 	console.log('收到服务器发送的数据：'+data.hello);
+ 	//发送自定义事件'hello'
     socket.emit('hello', { my: 'data' });
-  });
+  	});
 </script>
 </html>
